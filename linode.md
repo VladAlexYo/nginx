@@ -347,6 +347,18 @@ Like I said, it may take a few hours, but you should be all set. You have now de
 
 if you want to make changes to your app, just push to github and run a **git pull** on your server. There are other tools to help automate your deployments, but I will go over that another time.
 
+### Set Up SSL
 
+You can purchase an SSL and set it with your domain registrar or you can use Let's Encrypt and set one up for free using the following commands:
+
+```bash
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+sudo apt-get install python-certbot-nginx
+sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+
+# Only valid for 90 days, test the renewal process with
+certbot renew --dry-run
+```
 
 
