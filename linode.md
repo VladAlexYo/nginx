@@ -118,7 +118,9 @@ sudo nano /etc/ssh/sshd_config
 ```
 
 Look for where it says
-#  PasswordAuthentication Yes
+```
+PasswordAuthentication Yes
+```
 Remove the # if there is one and change the Yes to No
 
 If you want to disable root login all together you could change **permitRootLogin** to no as well. Be sure to remove the # sign becayse that comments the line out.
