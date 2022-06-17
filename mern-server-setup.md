@@ -1,5 +1,5 @@
 # Linux Server Setup & MERN App Deployment
-These are the steps to setup a Linode server and deploy a MERN application from scratch.
+These are the steps to setup an Ubuntu server from scratch and deploy a MERN app with the PM2 process manager and Nginx. We are using Linode, but you could just as well use a different cloud provider or your own machine or VM.
 
 Create an account at [Linode](https://linode.com/traversy)
 
