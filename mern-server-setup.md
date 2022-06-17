@@ -1,4 +1,4 @@
-# Deploying a MERN App to Linode
+# Linux Server Setup & MERN App Deployment
 These are the steps to setup a Linode server and deploy a MERN application from scratch.
 
 Create an account at [Linode](https://linode.com/traversy)
