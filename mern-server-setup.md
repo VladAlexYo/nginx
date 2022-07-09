@@ -358,9 +358,17 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 sudo apt-get install python-certbot-nginx
 sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+sudo fuser -k 443/tcp
+
+sudo fuser -k 80/tcp
+
+sudo service nginx restart
+
+
 
 # Only valid for 90 days, test the renewal process with
 certbot renew --dry-run
 ```
+
 
 
