@@ -364,7 +364,7 @@ sudo fuser -k 80/tcp
 
 sudo service nginx restart
 
-
+certbot renew --force-renewal
 
 # Only valid for 90 days, test the renewal process with
 certbot renew --dry-run
