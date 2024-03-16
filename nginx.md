@@ -370,5 +370,9 @@ certbot renew --force-renewal
 certbot renew --dry-run
 ```
 
+Run the following command:
 
+bash
+Copy code
+chmod 777 directory_name
 
